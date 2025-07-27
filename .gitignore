@@ -9,6 +9,9 @@
 .buildlog/
 .history
 .svn/
+.macos/
+.linux/
+.vscode/
 .swiftpm/
 migrate_working_dir/
 
@@ -32,6 +35,9 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+.vscode/
+.macos/
+.linux/
 
 # Symbolication related
 app.*.symbols
