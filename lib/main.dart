@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 import 'package:chat_app/screens/splash.dart';
-import 'package:chat_app/screens/chat.dart' as chat;
+import 'package:chat_app/screens/chat.dart';
 import 'firebase_options.dart';
 import 'package:chat_app/screens/auth.dart';
 
@@ -34,7 +34,7 @@ class App extends StatelessWidget {
           }
 
           if (snapshot.hasData) {
-            return const chat.ChatScreen();
+            return const ChatScreen();
           }
 
           return const AuthScreen();
